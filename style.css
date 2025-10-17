@@ -121,11 +121,56 @@ h2 {
     padding: 4em;
     background-color: #EEEEEE;
 }
+.history-left-item5 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+    background-color: #7CE5CD;
+}
+.history-left-item6 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+    background-color: #EEEEEE;
+}
 .history-right-container {
     display: grid;
     padding: 0em;
     grid-template-columns: 4fr 3fr;
     grid-template-rows: auto auto;
+}
+.history-right-item1 {
+    /* padding: 0 2em; */
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 4em;
+    background-color: #FFFFFF;
+}
+.history-right-item2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #7CE5CD;
 }
 .history-right-item3 {
     /* padding: 0 2em; */
@@ -148,5 +193,5 @@ h2 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #7CE5CD;
+    background-color: #E085C2;
 }
