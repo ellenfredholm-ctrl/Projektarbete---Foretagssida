@@ -1,0 +1,32 @@
+body {
+    font-family: Nunito Sans, 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+
+header {
+    background: #c3c2c2;
+    margin: 0%;
+    height: 230px;
+    display: flex;
+    width: 100%;
+
+}
+
+.top-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.top-nav a {
+    background: white;
+    height: 50px;
+    width: 80px;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+
+
+
+}
