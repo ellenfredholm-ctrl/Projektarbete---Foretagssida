@@ -219,6 +219,11 @@ h2 {
     padding: 20px;
     border-radius: 5px;
   }
+  .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
 .card-item1, .card-item2, .card-item3, .card-item4, .card-item5, .card-item6, .card-item7 {
     display: flex;
     justify-content: center;
@@ -243,6 +248,7 @@ h2 {
     grid-column-start: 3;
     grid-column-end: 4;
 }
+
 footer {
     background-color: #6E6868;
     color: #ffffff;
