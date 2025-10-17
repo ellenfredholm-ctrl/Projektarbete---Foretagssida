@@ -243,3 +243,19 @@ h2 {
     grid-column-start: 3;
     grid-column-end: 4;
 }
+footer {
+    background-color: #6E6868;
+    color: #ffffff;
+    padding: 1em 0 0 2em;
+}
+footer ul {
+    padding: 0;
+    list-style: none;
+}
+footer ul li a {
+    text-decoration: none;
+}
+
+footer ul li a {
+    color: #ffffff;
+}
