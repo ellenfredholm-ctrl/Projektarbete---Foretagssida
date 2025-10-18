@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
 }
 body {
     /* margin: 0 auto;
@@ -10,13 +12,17 @@ body {
 } 
 
 header {
-    background: #dbdada;
-    margin: 0%;
-    height: 230px;
+    background-color: #dbdada;
+    margin: 0;
+    height: 280px;
     display: flex;
     /* justify-content: center;
     align-items: center; */
     flex-direction: column;
+    /* nedan är för att göra så att headern ligger under main content */
+    position: relative;
+    z-index: 1;
+    padding: 0 50px;
 
 }
 
@@ -24,19 +30,19 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 50px;
+    padding-bottom: 0;
 
 }
 
-.logo {
-    background: #FFFFFF;
-    color: #000000;
-    height: 50px;
-    width: 100px;
-    padding: 10px;
+.logo img {
+    height: 80px;
+    width: auto;
+    border-radius: 5px;
+
 }
 
 .search {
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     color: #000000;
     height: 50px;
     width: 250px;
@@ -44,20 +50,28 @@ header {
     border: none;
     font-family: Nunito Sans, 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
     font-size: 100%;
+    box-sizing: border-box;
+    transition: 0.1s;
+}
+
+.search:focus {
+    outline: none;
+    border: 3px solid #A889CB;
 
 }
+
 
 .top-nav {
     display: flex;
     justify-content: center;
     align-items: center; 
     gap: 24px;
-
+    
 }
 
 .nav-links {
     display: flex;
-    gap: 15px;
+    gap: 24px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -68,16 +82,13 @@ header {
 }
 
 .nav-links li a:hover {
-    background: #7CE5CD;
+    background-color: #7CE5CD;
+    font-weight: bold;
     
 }
 
-/* .nav-links li a:active {
-    background: #c3c2c2;
-} */
-
 .top-nav a {
-    background: white;
+    background-color: white;
     height: 60px;
     width: 120px;
     text-decoration: none;
@@ -85,6 +96,114 @@ header {
     padding: 20px;
     text-align: center;
     display: block;
+}
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* nedan är för att göra så main content lägger sig över header */
+    position: relative;
+    z-index: 2;
+    margin-top: -50px;
+    
+    
+
+}
+
+.contact-head-background {
+    background-color: #E085C2;
+}
+
+.contact-boxes {
+    display: flex;
+    flex-direction: row;
+    background-color: #dbdada;
+    width: 1200px;
+    justify-content: space-around;
+
+}
+
+.contact-info {
+    /* border: solid black; */
+    padding: 20px;
+}
+
+.form {
+    /* border: solid black; */
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    
+}
+
+textarea {
+    resize: none;
+}
+
+form input[type=text], form input[type=email], textarea, select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-family: Nunito Sans, 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    font-size: 100%;
+    box-sizing: border-box;
+    transition: 0.1s;
+    color: #000000;
+    margin-bottom: 30px;
+
+}
+form input[type=text]:focus {
+    outline: none;
+    border: 3px solid #A889CB;
+}
+
+form input[type=email]:focus {
+    outline: none;
+    border: 3px solid #A889CB;
+
+}
+
+
+select:focus {
+    outline: none;
+    border: 3px solid #A889CB;
+
+}
+
+select:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+textarea {
+    height: 250px;
+}
+
+textarea:focus {
+    outline: none;
+    border: 3px solid #A889CB;
+
+}
+
+input[type=submit] {
+    background-color: #7CE5CD;
+    border: none;
+    font-family: Nunito Sans, 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    padding: 10px;
+    width: 80px;
+
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    font-weight: bold;
+    
 }
 
 
@@ -272,7 +391,7 @@ h2 {
     padding: 20px;
     border-radius: 5px;
   }
-  .card img {
+.card img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
