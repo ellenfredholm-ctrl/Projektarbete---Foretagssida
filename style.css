@@ -1,12 +1,12 @@
 * {
     box-sizing: border-box;
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0;
 }
 body {
     /* margin: 0 auto;
-    padding: 0;
-    max-width: 60.625rem;
+    padding: 0; */
+    /* max-width: 60.625rem;
     background-color: #E5E5E5; */
     font-family: Nunito Sans, 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
 }
@@ -97,6 +97,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 1200px;
 
     /* nedan är för att göra så main content lägger sig över header */
     position: relative;
@@ -104,9 +105,17 @@ header {
     margin-top: -50px;
 }
 
+.contact-page h1 {
+    padding: 20px;
+}
+
+.contact-page h2 {
+    padding: 40px;
+}
+
 .contact-head-background {
     background-color: #E085C2;
-    width: 1202.6px;
+    width: 1200px;
     text-align: center;
 }
 
@@ -149,7 +158,7 @@ header {
     display:flex;
     flex-direction: column;
     justify-content: center;
-    gap: 80px;
+    gap: 120px;
 }
 
 .form {
@@ -221,7 +230,6 @@ input[type=submit]:hover {
     display: flex;
     background-color: #A09797;
     width: 1200px;
-    margin-top: 20px;
     flex-direction: column;
     align-items: center;
 }
