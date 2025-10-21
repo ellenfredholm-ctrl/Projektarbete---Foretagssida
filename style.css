@@ -97,7 +97,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1200px;
+    width: 970px;
 
     /* nedan är för att göra så main content lägger sig över header */
     position: relative;
@@ -158,7 +158,7 @@ header {
     display:flex;
     flex-direction: column;
     justify-content: center;
-    gap: 120px;
+    gap: 128px;
 }
 
 .form {
@@ -228,14 +228,24 @@ input[type=submit]:hover {
 
 .contact-location {
     display: flex;
-    background-color: #A09797;
+    background-color: #dbdada;
     width: 1200px;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
+    gap: 30px;
+}
+
+.contact-location p {
+    max-width: 600px;
+    text-align: center;
+    margin-top: -30px;
+    
 }
 
 .contact-pin img {
     max-width: 100px;
+    margin-bottom: 20px;
 }
 
 .business-image img {
