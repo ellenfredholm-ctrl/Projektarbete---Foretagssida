@@ -405,7 +405,7 @@ h2 {
     height: auto;
     border-radius: 5px;
 }
-.card-item1, .card-item2, .card-item3, .card-item4, .card-item5, .card-item6, .card-item7 {
+.card-item1, .card-item2, .card-item3, .card-item4, .card-item5, .card-item6, .card-item7, .card-item8, .card-item9, .card-item10, .card-item11, .card-item12 {
     display: flex;
     justify-content: center;
     padding: 0;
@@ -432,7 +432,7 @@ h2 {
 .card-item1, .card-item2, .card-item3 {
     background: linear-gradient(#A09797 50%, #A889CB 50%);
 }
-.card-item4, .card-item5, .card-item6, .card-item7 {
+.card-item4, .card-item5, .card-item6, .card-item7, .card-item8, .card-item9, .card-item10, .card-item11, .card-item12 {
     background:#A889CB 100%;
 }
 
