@@ -218,9 +218,20 @@ input[type=submit]:hover {
 }
 
 .contact-location {
+    display: flex;
     background-color: #A09797;
     width: 1200px;
     margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-pin img {
+    max-width: 100px;
+}
+
+.business-image img {
+    max-width: 400px;
 }
 
 h1 {
