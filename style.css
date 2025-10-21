@@ -96,6 +96,12 @@ h2 {
     font-size: 2em;
     font-family: Poetsen One, 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
 }
+main {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 60.625rem;
+    background-color: #E5E5E5;
+}
 .main-left-container {
     display: grid;
     padding: 0em;
