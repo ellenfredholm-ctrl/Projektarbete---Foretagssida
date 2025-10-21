@@ -115,7 +115,7 @@ header {
 
 .contact-head-background {
     background-color: #E085C2;
-    width: 1200px;
+    width: 970px;
     text-align: center;
 }
 
@@ -123,7 +123,7 @@ header {
     display: flex;
     flex-direction: row;
     background-color: #dbdada;
-    width: 1200px;
+    width: 970px;
     justify-content: space-around;
 }
 
@@ -229,7 +229,7 @@ input[type=submit]:hover {
 .contact-location {
     display: flex;
     background-color: #dbdada;
-    width: 1200px;
+    width: 970px;
     flex-direction: column;
     align-items: center;
     padding: 20px;
@@ -654,9 +654,11 @@ div[class^="references-item"] {
 footer {
     background-color: #6E6868;
     color: #ffffff;
-    padding: 1em 0 0 2em;
+    padding: 1.5em;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 120px;
 }
 footer ul {
     padding: 0;
@@ -665,15 +667,15 @@ footer ul {
 footer ul li a {
     text-decoration: none;
 }
+footer ul li a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
 
 footer ul li a {
     color: #ffffff;
 }
 
-.footer-socials {
-    align-self:flex-end;
-    margin-bottom: 10px;
-}
 
 .footer-socials img {
     width: 30px;
@@ -682,6 +684,14 @@ footer ul li a {
 .footer-socials ul {
     display: flex;
     gap: 15px;
+    align-items: center;
 }
+
+.footer-links ul {
+    display: flex;
+    gap: 50px;
+
+}
+
 
 
