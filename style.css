@@ -267,6 +267,19 @@ main {
     text-align: center;
     background-color: #A889CB;
 }
+.main-left-item3 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4em;
+    background-color: #A889CB;
+}
+
 .history-left-container {
     display: grid;
     padding: 0em;
@@ -392,12 +405,7 @@ main {
     text-align: center;
     background-color: #E085C2;
 }
-.main-container {
-    background-color: #A09797;
-}
-.main-container h2 {
-    text-align: center;
-}
+
 
 .cards-container {
     display: grid;
@@ -441,6 +449,72 @@ main {
     grid-row-end: 1;
     grid-column-start: 3;
     grid-column-end: 4;
+}
+
+ .references-container {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.references-item1, .references-item2, .references-item3, .references-item4, .references-item5, .references-item6, .references-item8 {
+    padding: 2em;
+}
+div[class^="references-item"] {
+    text-align: center;
+}
+.references-item1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #E085C2;
+    display: flex;
+    align-items: flex-start;
+}
+.references-item2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: flex-start;
+}
+.references-item3 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: #7CE5CD;
+    display: flex;
+    align-items: flex-start;
+}
+.references-item4 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: flex-start;
+}
+.references-item5 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: #A889CB;
+    display: flex;
+    align-items: flex-start;
+}
+.references-item6 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: flex-start;
 }
 
 footer {
