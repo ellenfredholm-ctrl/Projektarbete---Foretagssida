@@ -627,6 +627,8 @@ footer {
     background-color: #6E6868;
     color: #ffffff;
     padding: 1em 0 0 2em;
+    display: flex;
+    justify-content: space-between;
 }
 footer ul {
     padding: 0;
@@ -639,3 +641,19 @@ footer ul li a {
 footer ul li a {
     color: #ffffff;
 }
+
+.footer-socials {
+    align-self:flex-end;
+    margin-bottom: 10px;
+}
+
+.footer-socials img {
+    width: 30px;
+}
+
+.footer-socials ul {
+    display: flex;
+    gap: 15px;
+}
+
+
