@@ -20,7 +20,7 @@
            <img src="img\logo-placeholder.png">
           </a>
         </div>
-        <input [type="text"] class="search" placeholder="Sök">
+        <input [type="text"] class="search" placeholder="Sök" name="Sök">
       </div>
       <nav class="top-nav">
         <ul class="nav-links">
@@ -39,10 +39,30 @@
         </div>
         <div class="contact-boxes">
           <div class="contact-info">
+            <div class="contact-info-head">
             <h2>Kontaktuppgifter</h2>
+            </div>
+            <div class="icon-text-alignment">
+              <div class="contact-icons">
+                <a href="mailto:">
+                  <img src="img\Mail.png" alt="mail-ikon">
+                </a>
+                <a href="tel:">
+                  <img src="img\Telefon.png" alt="telefon-ikon">
+                </a>
+                <img src="img\klocka.png" alt="klocka-ikon">
+              </div>
+              <div class="contact-icons-text">
+                <p>Maila oss</p>
+                <p>Ring till oss</p>
+                <p>Öppettider: 08:00 - 17:00</p>
+              </div>
+            </div>
           </div>
           <div class="form">
-            <h2>Skicka din fråga</h2>
+            <div class="contact-info-head">
+              <h2>Skicka din fråga</h2>
+            </div>
             <form>
               <label for="name">Ditt namn</label>
               <input type="text" id="name" name="name">
@@ -61,7 +81,11 @@
             </form>
           </div>
         </div>
-      </div>  
+        <div class="contact-location">
+          <p>Här: adress opch bild</p>
+          <img src="img\Kartnål.png">
+        </div>
+      </div> 
     </main>
     <footer>
       <ul>
