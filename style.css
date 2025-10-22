@@ -19,7 +19,6 @@ header {
     /* justify-content: center;
     align-items: center; */
     flex-direction: column;
-    /* nedan är för att göra så att headern ligger under main content */
     position: relative;
     z-index: 1;
     padding: 0 50px;
@@ -114,8 +113,6 @@ header {
     flex-direction: column;
     align-items: center;
     width: 970px;
-
-    /* nedan är för att göra så main content lägger sig över header */
     position: relative;
     z-index: 2;
     margin-top: -50px;
@@ -463,6 +460,9 @@ h2 {
     padding: 0em;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
+    position: relative;
+    z-index: 2;
+    margin-top: -50px;
 }
 .index-item1 {
     grid-row-start: 1;
@@ -516,6 +516,9 @@ h2 {
     grid-template-columns: 4fr 3fr;
     grid-template-rows: auto auto;
     background-color: #A09797;
+    position: relative;
+    z-index: 2;
+    margin-top: -50px;
 
 }
 .main-item1 {
@@ -564,6 +567,9 @@ main {
     padding: 0;
     max-width: 60.625rem;
     background-color: #A09797;
+    position: relative;
+    z-index: 2;
+    margin-top: -50px;
 }
 .main-left-container {
     display: grid;
@@ -622,24 +628,13 @@ main {
     padding: 4em;
     background-color: #A09797;
 }
-/* button {
-    background-color: #fff;
-    border: none;
-    border-radius: 30px;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 15px 45px;
-    text-align: center;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-} */
+
 button a {
     color: #000;
     text-decoration: none;
 }
 
-.small-button {
+button {
     background-color: #7CE5CD;
     font-family: Nunito Sans, 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
     border: none;
@@ -655,7 +650,7 @@ button a {
     font-size: medium;
 }
 
-.small-button:hover {
+button:hover {
     box-shadow: 0 0 6px 6px rgba(110, 104, 104, 0.28);
 }
 
@@ -776,6 +771,7 @@ footer ul li a {
     display: flex;
     align-items: center;
     gap: 50px;
+    margin-left: 30px;
 }
 
 .footer-logo {
@@ -786,7 +782,7 @@ footer ul li a {
 
 
 .footer-logo img {
-    width: 30px;
+    width: 60px;
     
 }
 
