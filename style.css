@@ -574,6 +574,18 @@ main {
     padding: 4em;
     background-color: #A889CB;
 }
+.main-left-item4 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4em;
+    background-color: #A09797;
+}
 button {
     background-color: #fff;
     border: none;
