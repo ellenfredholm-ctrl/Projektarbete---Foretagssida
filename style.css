@@ -80,6 +80,11 @@ header {
     font-weight: bold;
 }
 
+.nav-links li a.active-page {
+    background-color: #7CE5CD;
+    font-weight: bold;
+}
+
 .top-nav a {
     background-color: #FFFFFF;
     height: 60px;
@@ -90,6 +95,7 @@ header {
     text-align: center;
     display: block;
 }
+
 
 /* Kontakt */
 
