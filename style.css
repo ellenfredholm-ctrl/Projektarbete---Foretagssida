@@ -634,6 +634,10 @@ button a {
     text-decoration: none;
 }
 
+a.email-link {
+    color: #000000;
+}
+
 button {
     background-color: #7CE5CD;
     font-family: Nunito Sans, 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
