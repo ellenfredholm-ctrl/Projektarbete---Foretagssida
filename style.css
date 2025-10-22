@@ -549,10 +549,10 @@ h2 {
     justify-content: center;
     padding: 0 4em 4em 4em;
 }
-.main-item3 p {
-    margin-bottom: 2em;
+ p {
+    margin: 2em 0;
 }
-.main-item3 p:last-child {
+ p:last-child {
     margin-bottom: 0;
 }
 main {
@@ -590,6 +590,9 @@ main {
     align-items: center;
     text-align: center;
     background-color: #A889CB;
+}
+.main-left-item2 p, .main-item2 p, .index-item2 p, .index-item3 p, .main-item3 p:first-child {
+    margin: 0;
 }
 .main-left-item3 {
     grid-row-start: 1;
