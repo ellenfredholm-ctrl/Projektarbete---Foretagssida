@@ -688,7 +688,6 @@ footer ul li a {
     text-decoration: none;
 }
 footer ul li a:hover {
-    text-decoration: none;
     font-weight: bold;
 }
 
@@ -698,20 +697,30 @@ footer ul li a {
 
 
 .footer-socials img {
-    width: 30px;
+    max-height: 30px;
+}
+
+.footer-socials {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    max-height: 30px;
 }
 
 .footer-socials ul {
     display: flex;
     gap: 15px;
     align-items: center;
+    max-height: 30px;
 }
 
 .footer-links ul {
     display: flex;
+    align-items: center;
     gap: 50px;
 
 }
+
 
 
 
