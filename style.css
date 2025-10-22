@@ -81,7 +81,7 @@ header {
 }
 
 .top-nav a {
-    background-color: white;
+    background-color: #FFFFFF;
     height: 60px;
     width: 120px;
     text-decoration: none;
@@ -168,7 +168,7 @@ header {
 form {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 380px;
 }
 
 form input[type=text], form input[type=email], textarea, select {
@@ -232,7 +232,7 @@ input[type=submit]:hover {
     width: 970px;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 80px;
     gap: 30px;
 }
 
@@ -251,6 +251,8 @@ input[type=submit]:hover {
 .business-image img {
     max-width: 400px;
 }
+
+
 
 h1 {
     font-size: 3em;
