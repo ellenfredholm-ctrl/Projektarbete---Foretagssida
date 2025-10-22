@@ -160,7 +160,7 @@ header {
     justify-content: space-around;
     margin-top: 20px;
 }
-.contact-info p {
+.contact-info p, .contact-info span {
     font-size:1.25em;
 }
 
