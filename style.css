@@ -417,6 +417,10 @@ h2 {
     width: 80%;
     padding: 20px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
   }
 .card img {
     max-width: 100%;
@@ -758,6 +762,7 @@ footer ul li a {
     display: flex;
     align-items: center;
     max-height: 30px;
+
 }
 
 .footer-socials ul {
@@ -771,8 +776,20 @@ footer ul li a {
     display: flex;
     align-items: center;
     gap: 50px;
-
 }
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.footer-logo img {
+    width: 30px;
+    
+}
+
 
 
 
