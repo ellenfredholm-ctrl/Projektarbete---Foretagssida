@@ -743,10 +743,10 @@ footer ul li a {
 }
 
 .footer-logo img {
-    width: 120px;      /* justera storlek här */
+    width: 80px;      /* justera storlek här */
     height: auto;      /* behåll proportioner */
     display: block;
-    margin: 0 auto;    /* centrerar horisontellt */
+    margin: 0 auto 10px;    /* centrerar horisontellt */
   }
 
 
