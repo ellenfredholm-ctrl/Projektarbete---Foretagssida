@@ -48,6 +48,9 @@ header {
     font-size: 2em;
 }
 
+.logo a {
+    text-decoration: none;
+}
 .search {
     background-color: #FFFFFF;
     color: #000000;
@@ -541,9 +544,6 @@ h2 {
     grid-template-rows: auto auto;
     background-color: #A09797;
     position: relative;
-    z-index: 2;
-    margin-top: -50px;
-
 }
 
 .main-item1 {
